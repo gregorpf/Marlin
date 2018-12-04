@@ -15,6 +15,9 @@
 
 ##### [RepRap.org Wiki Page](http://reprap.org/wiki/Marlin)
 
+## My config before adding automatic leveling
+this is my config before adding automatic bedleveling with inductive sensor.
+
 ## Quick Information
 
 This is a firmware for reprap single-processor electronics setups.
