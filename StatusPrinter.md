@@ -2,4 +2,4 @@
 
 Configuration.h:
 
-continue: line 550 of old config file
+    continue comparing: line 550 of old config file
