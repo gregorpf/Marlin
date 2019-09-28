@@ -3,3 +3,5 @@
 Configuration.h:
 
     continue comparing: line 550 of old config file
+
+Check on Printer probe offset if correct
