@@ -2,6 +2,11 @@
 
 Configuration.h:
 
-    continue comparing: line 550 of old config file
+   
 
-Check on Printer probe offset if correct
+- Check on Printer probe offset if correct
+- Check if preheat constances are necessary
+
+        continue comparing: line 590 of old config file
+
+
