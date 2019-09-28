@@ -2,6 +2,4 @@
 
 Configuration.h:
 
-Removed:
-      
-         POWER_SUPPLY 1  
+continue: line 550 of old config file
