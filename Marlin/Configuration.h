@@ -598,7 +598,7 @@
 // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
 #define X_MIN_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
 #define Y_MIN_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
-#define Z_MIN_ENDSTOP_INVERTING false  // set to true to invert the logic of the endstop.  ->Changed for BLTOUCH
+#define Z_MIN_ENDSTOP_INVERTING false  // set to true to invert the logic of the endstop.  
 #define X_MAX_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
 #define Y_MAX_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
 #define Z_MAX_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
@@ -2043,7 +2043,7 @@
 // Delay (in milliseconds) before the next move will start, to give the servo time to reach its target angle.
 // 300ms is a good value but you can try less delay.
 // If the servo can't reach the requested position, increase it.
-#define SERVO_DELAY { 300 }
+#define SERVO_DELAY { 100 , 100, 100}
 
 // Only power servos during movement, otherwise leave off to prevent jitter
 //#define DEACTIVATE_SERVOS_AFTER_MOVE
