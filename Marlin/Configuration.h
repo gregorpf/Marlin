@@ -539,12 +539,12 @@
   #define DELTA_DIAGONAL_ROD 258.0 // mm
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 407.00 // get this value from auto calibrate
+  #define DELTA_HEIGHT 407.15 // get this value from auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
 // Horizontal offset from middle of printer to smooth rod center.
-  #define DELTA_SMOOTH_ROD_OFFSET 168.80
+  #define DELTA_SMOOTH_ROD_OFFSET 169.20
 
   // Horizontal offset of the universal joints on the end effector.
   #define DELTA_EFFECTOR_OFFSET 22.87 // mm
@@ -632,7 +632,7 @@
 
 // Enable this feature if all enabled endstop pins are interrupt-capable.
 // This will remove the need to poll the interrupt pins, saving many CPU cycles.
-#define ENDSTOP_INTERRUPTS_FEATURE
+// #define ENDSTOP_INTERRUPTS_FEATURE
 
 /**
  * Endstop Noise Filter
